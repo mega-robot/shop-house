@@ -1,0 +1,79 @@
+body{
+  padding: 20px;
+  background-color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma;
+}
+.form{
+padding: 40px;
+background-color: white;
+margin: auto;
+border-radius: 10px;
+border: 1px solid #ccc;
+max-width: 750px;
+box-shadow: 10px 10px 0px solid black;
+}
+form{
+  margin-left: 125px;
+}
+h2{
+  text-align: center;
+}
+label{
+  display: flex;
+  margin: 10px 0;
+}
+input[type="text"], input[type="email"], input[type="tel"], select{
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+select{
+  margin-bottom: 20px;
+}
+button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+ width: 500px;
+ background-color:#28a745;
+ color: white;
+}
+button:hover{
+  background-color: #1e7632;
+}
+input:focus {
+  outline-color: blue;
+  }
+
+  .nav {
+    background-color:  #eaeaea;
+    overflow: hidden;
+}
+.nav a{
+    text-decoration: none;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.nav a:hover {
+    background-color: #d1d1d1;
+    border-radius: 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 1px);
+}
+.nav a.active {
+    background-color:  #d1d1d1;
+    border-radius: 20px;
+}
+
+header {
+  background-color:  #eaeaea;
+  padding: 10px;
+  text-align: center;
+  font-size: 2.2em;
+  font-family: Arial, sans-serif; 
+  color: #2d2828;
+}
